@@ -1,4 +1,4 @@
-PLANTILLA DEL DOCUMENTO DE DISEÑO DE JUEGO
+DOCUMENTO DE DISEÑO DE JUEGO
 =============================
 1. Página del Título
    1. Nombre del juego
@@ -23,7 +23,6 @@ PLANTILLA DEL DOCUMENTO DE DISEÑO DE JUEGO
         1. Flujo del juego
         2. Apariencia y Sensación
 3. Jugabilidad
-   1.  Jugabilidad
        1. Progresión del juego
        2. Objetivos
        3. Estructura de las Misiones
