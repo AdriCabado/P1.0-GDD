@@ -22,14 +22,14 @@ DOCUMENTO DE DISEÑO DE JUEGO
    4.  Experiencia de Juego
         1. Flujo del juego
         2. Apariencia y Sensación
-3. Jugabilidad
+3.  Jugabilidad
        1. Progresión del juego
        2. Objetivos
        3. Estructura de las Misiones
        4. Estructura de Desafíos y Rompecabezas
        5. Flujo de juego / Loop jugable
 4. Mecánicas
-   1. Física y Movimiento  
+   1. Física y Movimiento
    2. Acciones, Interacción y Comunicación
    3. Combate
    4. Economía
