@@ -1,78 +1,134 @@
 DOCUMENTO DE DISEÑO DE JUEGO
 =============================
-1. Página del Título
-   1. Nombre del juego
-   2. Subtitulo    
-   3. Catchy quote
-   4. Información adicional	
-       1. Nombre de la desarrolladora/empresa
-       2. Autor/supervisor del GDD
-2. Resumen del Juego
-   1.  Concepto del Videojuego
-       1. High Concept (concepto del videojuego pero resumido)
-       2. Características clave
-           1. Un jugador
-           2. Multijugador
-           3. Editor
-       3. Preguntas de Diseño
-           1. El Punto y Filosofía del Videojuego
-           2. ¿Que es diferente?
-   2.  Género
-   3.  Público objetivo
-   4.  Experiencia de Juego
-        1. Flujo del juego
-        2. Apariencia y Sensación
-3.  Jugabilidad
-       1. Progresión del juego
-       2. Objetivos
-       3. Estructura de las Misiones
-       4. Estructura de Desafíos y Rompecabezas
-       5. Flujo de juego / Loop jugable
-4. Mecánicas
-   1. Física y Movimiento
-   2. Acciones, Interacción y Comunicación
-   3. Combate
-   4. Economía
-   5. Flujo de Cámara y Pantalla
-5. Opciones del juego
-   1.  Opciones Generales
-   2.  Rejugar y Guardados 
-   3.  Trucos y Easter Eggs
-6. Historia, Ambientación y Personajes
-   1.  Historia y Narrativa
-       1. Backstory y narrativa
-       2. Progresión en el juego
-       3. Secuencias cinematográficas
-          1. Actores
-          2. Guion
-   2.  Mundo del juego
-       1. Aspecto general y sensación del mundo
-       2. Áreas
-   3.  Personajes
-   4.  Armas y objetos
-7. Niveles
-   1.  Nivel del Tutorial
-   2.  Niveles (los puntos de abajo se podrian utilizar para la guía del juego)
-       1. Synopsis
-       2. Objetivos
-       3. Acciones
-8. Interfaz
-   1.  Sistema de ayuda
-   2.  GUI (Interfaz Gráfica de Usuario)
-   3.  Sistema de Control
-   4.  Audio
-       1. SFX (Efectos de sonido)
-       2. Musica
-9. Inteligencia Artificial
-    1. IA de apoyo
-    2. IA enemiga 
-    3. IA amiga
-10. Informacion Técnica
-    1. Hardware y software de desarrollo
-    2. Development hardware and software
-       1. Motor de juego
-       2. Software clave
-       3. Requisitos de red
-11. Arte del juego
-    1. Assets clave
-    2. Estilo previsto
+
+## Mi juego ideal
+Honestamente, no tengo un ideal de lo que sería mi juego perfecto, pero me gustan bastante los juegos que te permiten montarte tu propia historia o en los que tu experiencia de juego sea muy distinta a la de otras personas, dependiendo de cómo lo quieras jugar. Me gustan los juegos en los que están planteadas muchas decisiones, como *Baldur's Gate 3* o *Dragon Age: Origins*, y en los que, dependiendo del rol que le quieras asignar a tu personaje, abras o cierres trayectos en el juego. *Middle-earth: Shadow of War* es de los videojuegos que mejor exploran cómo tus acciones afectan a las relaciones entre NPCs y aplican las debidas consecuencias, de manera que te hace creer que te estás montando tu propia historia. Otros juegos como Dwarf Fortress o RimWorld exploran la libertad a la hora de crear tu propia historia, pero les faltan impacto narrativo.</br></br>
+Mi juego ideal, supongo, sería la combinación de estos factores: la capacidad de crearte tu propio personaje único con su rol y los elementos jugables que apoyen su impacto en el mundo, de manera que con cada personaje que crees vivas una historia totalmente distinta a la de otros jugadores.
+
+## 1. Página del Título
+Nombre del juego: *Your Path*  
+
+Información adicional:
+Autor/Supervisor del GDD: Adrián González Cabado
+
+## 2. Resumen del Juego
+### 2.1 Concepto del Videojuego
+High Concept: *Un RPG inmersivo donde cada partida te permite asumir un rol personalizable y los NPC reaccionan con una IA avanzada, ofreciendo una experiencia única en cada sesión.*
+
+#### Características clave:
+- Juego de un solo jugador
+
+#### Preguntas de Diseño
+1. El Punto y Filosofía del Videojuego: Explorar la libertad absoluta de rol y su impacto en el mundo.
+2. ¿Qué es diferente? IA avanzada con memoria persistente y reacciones dinámicas a cada decisión.
+
+### 2.2 Género
+- RPG de mundo abierto con simulación de IA y narrativa emergente.
+
+### 2.3 Público objetivo
+- Jugadores de rol, amantes de los mundos abiertos y de la toma de decisiones.
+
+### 2.4 Experiencia de Juego
+Flujo del juego: Total libertad de rol, misiones emergentes y narrativas ramificadas.  
+Apariencia y Sensación: Realismo cinematográfico con un estilo artístico detallado y evocador.
+
+## 3. Jugabilidad
+### 3.1 Progresión del juego
+- Las elecciones determinan el desarrollo del personaje y del mundo.
+- La relación con los NPCs cambia la historia y las oportunidades.
+
+### 3.2 Objetivos
+- Cada partida puede enfocarse en distintos objetivos según el rol elegido.
+
+### 3.3 Estructura de las Misiones
+- Misión principal con eventos ramificados.
+- Misiones secundarias generadas dinámicamente.
+
+### 3.4 Estructura de Desafíos y Rompecabezas
+- Basados en las habilidades del personaje y en elecciones previas.
+
+### 3.5 Flujo de juego / Loop jugable
+1. Creación del personaje y selección del rol.
+2. Exploración del mundo y toma de decisiones.
+3. Interacción con NPCs y misiones.
+4. Evolución de la historia basada en elecciones.
+5. Posibilidad de reiniciar y experimentar nuevas rutas.
+
+## 4. Mecánicas
+### 4.1 Física y Movimiento
+- Físicas realistas con interacción ambiental avanzada.
+
+### 4.2 Acciones, Interacción y Comunicación
+- Sistema de diálogo fluido con IA reactiva.
+- Reputación e impacto en la sociedad.
+
+### 4.3 Combate
+- Combate en tiempo real.
+
+### 4.4 Economía
+- Dinámica con comercio y mercados influenciados por eventos del jugador.
+
+### 4.5 Flujo de Cámara y Pantalla
+- Cambio de cámara según la situación (tercera persona, primera persona).
+
+## 5. Opciones del juego
+### 5.1 Opciones Generales
+- Extensa personalización visual y de dificultad.
+
+### 5.2 Rejugar y Guardados
+- Múltiples ranuras de guardado.
+
+## 6. Historia, Ambientación y Personajes
+### 6.1 Historia y Narrativa
+Backstory y narrativa: Un mundo en constante cambio, partiendo de unas bases mínimas.
+
+### 6.2 Mundo del juego
+- Aspecto general: Semi-realista.
+- Áreas: Pequeños pueblos y pocas ciudades.
+
+### 6.3 Personajes
+- NPCs con memoria persistente e interacción avanzada que parten de una personalidad base que evoluciona.
+
+### 6.4 Armas y objetos
+- Los típicos de juegos de rol.
+
+## 7. Niveles
+### 7.1 Nivel del Tutorial
+- Básico al principio de la primera run que no se repetirá.
+
+### 7.2 Niveles
+- La dificultad aumentará según el nivel del jugador.
+
+## 8. Interfaz
+### 8.1 Sistema de ayuda
+- Tutoriales interactivos y guías de rol.
+
+### 8.2 GUI (Interfaz Gráfica de Usuario)
+- Parecida a Skyrim.
+
+### 8.3 Sistema de Control
+- Adaptativo según el modo de juego (teclado/ratón, mando).
+
+### 8.4 Audio
+- SFX: Ambientación inmersiva y respuesta dinámica a eventos.
+- Música: Banda sonora adaptativa que cambia según la situación.
+
+## 9. Inteligencia Artificial
+### 9.1 IA de apoyo
+- Compañeros con personalidad propia y memoria.
+
+### 9.2 IA enemiga
+- Adaptativa, con diferentes estrategias según el comportamiento del jugador.
+
+### 9.3 IA amiga
+- NPCs con la capacidad de recordar interacciones pasadas.
+
+## 10. Información Técnica
+### 10.1 Hardware y software de desarrollo
+- Soporte para PC, consolas y VR.
+ 
+### 10.2 Motor de juego
+- Unreal Engine 5 con tecnología de IA avanzada.
+
+## 11. Arte del juego
+- Estilo semi-realista.
