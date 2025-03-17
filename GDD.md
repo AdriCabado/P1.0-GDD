@@ -5,7 +5,7 @@ DOCUMENTO DE DISEÑO DE JUEGO
 Honestamente, no tengo un ideal de lo que sería mi juego perfecto, pero me gustan bastante los juegos que te permiten montarte tu propia historia o en los que tu experiencia de juego sea muy distinta a la de otras personas, dependiendo de cómo lo quieras jugar. Me gustan los juegos en los que están planteadas muchas decisiones, como *Baldur's Gate 3* o *Dragon Age: Origins*, y en los que, dependiendo del rol que le quieras asignar a tu personaje, abras o cierres trayectos en el juego. *Middle-earth: Shadow of War* es de los videojuegos que mejor exploran cómo tus acciones afectan a las relaciones entre NPCs y aplican las debidas consecuencias, de manera que te hace creer que te estás montando tu propia historia. Otros juegos como Dwarf Fortress, RimWorld o Kenshi exploran la libertad a la hora de crear tu propia historia, pero les faltan impacto narrativo.</br></br>
 Mi juego ideal, supongo, sería la combinación de estos factores: la capacidad de crearte tu propio personaje único con su rol y los elementos jugables que apoyen su impacto en el mundo, de manera que con cada personaje que crees vivas una historia totalmente distinta a la de otros jugadores.
 
-## 1. Página del Título
+## 1. Título
 Nombre del juego: *Your Path*  
 
 Información adicional:
