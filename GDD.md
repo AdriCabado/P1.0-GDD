@@ -1,37 +1,27 @@
-DOCUMENTO DE DISEÑO DE JUEGO
+DOCUMENTO DE DISEÑO DE JUEGO - GDD
 =============================
 
-## Mi juego ideal
+## 1. Mi juego ideal
 Honestamente, no tengo un ideal de lo que sería mi juego perfecto, pero me gustan bastante los juegos que te permiten montarte tu propia historia o en los que tu experiencia de juego sea muy distinta a la de otras personas, dependiendo de cómo lo quieras jugar. Me gustan los juegos en los que están planteadas muchas decisiones, como *Baldur's Gate 3* o *Dragon Age: Origins*, y en los que, dependiendo del rol que le quieras asignar a tu personaje, abras o cierres trayectos en el juego.</br></br>
-*Middle-earth: Shadow of War* es de los videojuegos que mejor exploran cómo tus acciones afectan a las relaciones entre NPCs y aplican las debidas consecuencias, de manera que te hace creer que te estás montando tu propia historia. Otros juegos como Dwarf Fortress, RimWorld o Kenshi exploran la libertad a la hora de crear tu propia historia, pero les faltan impacto narrativo.</br></br>
-Mi juego ideal, supongo, sería la combinación de estos factores: la capacidad de crearte tu propio personaje único, los elementos jugables que apoyen su interacción en el mundo y alguna forma de añadir una historia generada unica con cada personaje.
-
-## 1. Nombre del juego
-Nombre del juego: *Your Path*  
-
-Información adicional:
-Autor/Supervisor del GDD: Adrián González Cabado
+*Middle-earth: Shadow of War* es de los videojuegos que mejor exploran cómo tus acciones afectan a las relaciones entre NPCs y aplican las debidas consecuencias, de manera que te hace creer que te estás montando tu propia historia. Otros juegos como Dwarf Fortress, RimWorld o Kenshi exploran la libertad a la hora de crear tu propia historia con tu propio personaje, pero les faltan impacto narrativo.</br></br>
+Mi juego ideal, supongo, sería la combinación de estos factores: la capacidad de crearte tu propio personaje único, los elementos jugables que apoyen su interacción en el mundo y alguna forma de añadir una historia generada unica con cada personaje.</br></br>
+Comentar que esto tecnicamente ya esta teniendo sus inicios, Mantella (https://www.nexusmods.com/skyrimspecialedition/mods/98631) es un mod para Skyrim que añade IA avanzada a los NPC para que reaccionen de manera unica en cada encuentro, tengan memoria de sucesos pasados, reaccionen a lo que dices o haces y conviertan sus nuevos dialogos a traves de la transcripcion de texto a audio haciendote sentir que los NPCs estan vivos. Todo esto es impresionante para un solo mod ¿pero se podria utilizar la idea y hacer un juego entero basado en este concepto clave y que se sintiera natural y divertido?
 
 ## 2. Resumen del Juego
-### 2.1 Concepto del Videojuego
-Un RPG inmersivo donde cada partida te permite asumir un rol personalizable y los NPC reaccionan con una IA avanzada junto a una gran cantidad de mecanicas jugables, ofreciendo una experiencia única en cada sesión y una sensación de realismo.
+### 2.1 Nombre del juego
+Nombre del juego: *Your Path* 
+### 2.2 Concepto del Videojuego
+Un RPG inmersivo donde cada partida te permite asumir un personaje totalmente personalizable por el jugador y los NPC reaccionan con una IA avanzada junto a una gran cantidad de mecanicas jugables e historia moldeable, ofreciendo una experiencia única en cada sesión de juego y que se sienta realista y natural. Seria un juego para un solo jugador.
 
-#### Características clave:
-- Juego de un solo jugador
-
-#### Preguntas de Diseño
-1. El Punto y Filosofía del Videojuego: Explorar la libertad absoluta de elegir y personalizar tu propio rol y su impacto en el mundo atraves de decisiones y gameplay.
-3. ¿Qué es diferente? IA avanzada con memoria persistente y reacciones dinámicas a cada decisión dependiendo de la partida.
-
-### 2.2 Género
+### 2.3 Género
 - RPG de mundo abierto.
 
-### 2.3 Público objetivo
-- Jugadores de rol y fans de juegos tipo Dwarf Fortress, Rimworld o Kenshi.
+### 2.4 Público objetivo
+- Jugadores de rol en general y fans de juegos tipo Dwarf Fortress, Rimworld o Kenshi.
 
-### 2.4 Experiencia de Juego
-Flujo del juego: Total libertad de personalización de rol, misiones emergentes y narrativas ramificadas.  
-Apariencia y Sensación: Semi-realismo, que se parezca al mundo real pero en una ambientación medieval con magia.
+### 2.5 Experiencia de Juego
+Flujo del juego: Total libertad de personalización de rol, misiones emergentes y narrativas ramificadas unicas.  
+Apariencia y Sensación: Realista, que se parezca al mundo real pero en una ambientación de fantasia con magia.
 
 ## 3. Jugabilidad
 ### 3.1 Progresión del juego
@@ -39,7 +29,7 @@ Apariencia y Sensación: Semi-realismo, que se parezca al mundo real pero en una
 - La relación con los NPCs cambia la historia y las oportunidades que dispones.
 
 ### 3.2 Objetivos
-- Cada partida puede enfocarse en distintos objetivos según el rol elegido.
+- Cada partida puede enfocarse en distintos objetivos según el personaje elegido.
 
 ### 3.3 Estructura de las Misiones
 - Misión principal con eventos ramificados.
@@ -81,17 +71,17 @@ Apariencia y Sensación: Semi-realismo, que se parezca al mundo real pero en una
 
 ## 6. Historia, Ambientación y Personajes
 ### 6.1 Historia y Narrativa
-Backstory y narrativa: Un mundo en constante cambio, partiendo de unas bases.
+Backstory y narrativa: Un mundo en constante cambio, partiendo de unas bases y del inicio que decida el jugador.
 
 ### 6.2 Mundo del juego
-- Aspecto general: Semi-realista con magia.
+- Aspecto general: Realista con elementos de fantasia.
 - Áreas: Pequeños pueblos y pocas ciudades pero con mucho contenido en ellas.
 
 ### 6.3 Personajes
 - NPCs con memoria persistente e interacción avanzada que parten de una personalidad base que va evolucionando.
 
 ### 6.4 Armas y objetos
-- Las típicos de juegos de rol.
+- Las típicos de juegos de fantasia (espadas, bastones de magia, armaduras, etc).
 
 ## 7. Niveles
 
@@ -102,10 +92,10 @@ Backstory y narrativa: Un mundo en constante cambio, partiendo de unas bases.
 - Tutoriales interactivos y guías de rol.
 
 ### 8.2 GUI (Interfaz Gráfica de Usuario)
-- Parecida a la de los juegos de Bethesda como Skyrim/Fallout.
+- Parecida a la de los juegos de Bethesda como Skyrim/Fallout, que sea simple y no manche la vision.
 
 ### 8.3 Sistema de Control
-- Adaptativo según el modo de juego (teclado/ratón, mando).
+- Teclado y ratón o  mando.
 
 ### 8.4 Audio
 - SFX: Ambientación inmersiva y respuesta dinámica a eventos.
@@ -126,4 +116,4 @@ Backstory y narrativa: Un mundo en constante cambio, partiendo de unas bases.
 - Soporte para PC y consolas.
 
 ## 11. Arte del juego
-- Estilo semi-realista.
+- Estilo realista.
